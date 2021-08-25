@@ -1,4 +1,10 @@
 body {
+  background-image: url("samuel.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body {
   margin: 0;
 }
 
@@ -11,14 +17,14 @@ ul.topnav {
 }
 
 ul.topnav li {
-  float: left;
+  float: right;
 }
 
 ul.topnav li a {
   display: block;
-  color: white;
+  color: rgb(98, 94, 94);
   text-align: right;
-  padding: 14px 16px;
+  padding: 35px 16px;
   text-decoration: none;
 }
 
@@ -27,7 +33,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-  background-color: #04aa6d;
+  background-color: #000000;
 }
 
 ul.topnav li.right {
@@ -42,12 +48,12 @@ ul.topnav li.right {
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 20;
   padding: 0;
   overflow: hidden;
-  position: fixed;
-  width: 100%;
-  background-color: #222;
+  position: absolute;
+  width: 45%;
+  background-color: brown;
 }
 
 li {
@@ -55,17 +61,57 @@ li {
 }
 
 li a {
-  display: block;
+  display: ruby-base;
   color: white;
   text-align: right;
-  padding: 16px 16px;
+  padding: 100px 100px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: rgb(212, 204, 204);
+  background-color: gold;
 }
 
 .active {
   background-color: #521;
+}
+
+section {
+  margin: 30px;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(168, 168, 168);
+  text-align: center;
+  background-clip: content-box;
+  background-color: rgba(192, 192, 192, 0.74);
+}
+.about {
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+  border-color: white;
+}
+h2 {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(34, 29, 26, 0.712);
+  color: rgba(182, 182, 182, 0.952);
+  text-align: center;
+}
+
+footer a {
+  color: whitesmoke;
+}
+.projects {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  border-color: black;
 }
